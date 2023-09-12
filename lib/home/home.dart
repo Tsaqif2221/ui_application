@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ui_application/home/home_notifier.dart';
@@ -323,13 +325,94 @@ class HomePage extends StatelessWidget {
                                   "Pilih Produk yang anda cari",
                                   style: TextStyle(fontSize: 12),
                                 ),
-                                SizedBox(
-                                  height: 18,
-                                )
                               ],
                             ),
+                          ),
+                          SizedBox(
+                            height: 30,
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                padding: EdgeInsets.all(16),
+                                child: Container(
+                                  height: 200,
+                                  width: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.deepPurpleAccent,
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.all(16),
+                                child: Container(
+                                  height: 200,
+                                  width: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.deepPurpleAccent,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                padding: EdgeInsets.all(16),
+                                child: Container(
+                                  height: 200,
+                                  width: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.deepPurpleAccent,
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.all(16),
+                                child: Container(
+                                  height: 200,
+                                  width: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.deepPurpleAccent,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Container(
+                                padding: EdgeInsets.all(16),
+                                child: Container(
+                                  height: 200,
+                                  width: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.deepPurpleAccent,
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.all(16),
+                                child: Container(
+                                  height: 200,
+                                  width: 150,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.deepPurpleAccent,
+                                  ),
+                                ),
+                              ),
+                            ],
                           )
                         ],
+                      ),
+                      SizedBox(
+                        height: 80,
                       )
                     ],
                   ),
