@@ -6,20 +6,6 @@ import 'package:ui_application/home/home_notifier.dart';
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
-  List a = [
-    "assets/1.png",
-    "assets/2.png",
-    "assets/3.png",
-    "assets/4.png",
-  ];
-
-  List b = [
-    "Scan",
-    "Voucher",
-    "bayar",
-    "Tukar poin",
-  ];
-
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
@@ -234,7 +220,7 @@ class HomePage extends StatelessWidget {
                             GridView.builder(
                               shrinkWrap: true,
                               physics: const NeverScrollableScrollPhysics(),
-                              itemCount: a.length,
+                              itemCount: value.a.length,
                               gridDelegate:
                                   const SliverGridDelegateWithFixedCrossAxisCount(
                                       crossAxisCount: 4),
@@ -256,10 +242,10 @@ class HomePage extends StatelessWidget {
                                               color: Colors.grey[400] ??
                                                   Colors.transparent),
                                         ),
-                                        child: Image.asset(a[index]),
+                                        child: Image.asset(value.a[index]),
                                       ),
                                     ),
-                                    Text(b[index]),
+                                    Text(value.b[index]),
                                   ],
                                 );
                               },
