@@ -341,13 +341,21 @@ class HomePage extends StatelessWidget {
                                     width: 35,
                                   ),
                                   Container(
-                                    height: 200,
-                                    width: 150,
-                                    color: Colors.white,
-                                    child: Center(
-                                      child: Text("HAi"),
-                                    ),
-                                  ),
+                                      height: 200,
+                                      width: 150,
+                                      color: Colors.white,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                              child: Image.asset(
+                                            'assets/download.jpeg',
+                                          )),
+                                          Positioned(
+                                              top: 100,
+                                              left: 5,
+                                              child: Text("HAi")),
+                                        ],
+                                      )),
                                 ],
                               ),
                               SizedBox(height: 20),
@@ -356,24 +364,40 @@ class HomePage extends StatelessWidget {
                                     MainAxisAlignment.spaceAround,
                                 children: [
                                   Container(
-                                    height: 200,
-                                    width: 150,
-                                    color: Colors.white,
-                                    child: Center(
-                                      child: Text("HAi"),
-                                    ),
-                                  ),
+                                      height: 200,
+                                      width: 150,
+                                      color: Colors.white,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                              child: Image.asset(
+                                            'assets/download.jpeg',
+                                          )),
+                                          Positioned(
+                                              top: 100,
+                                              left: 5,
+                                              child: Text("HAi")),
+                                        ],
+                                      )),
                                   SizedBox(
                                     width: 35,
                                   ),
                                   Container(
-                                    height: 200,
-                                    width: 150,
-                                    color: Colors.white,
-                                    child: Center(
-                                      child: Text("HAi"),
-                                    ),
-                                  ),
+                                      height: 200,
+                                      width: 150,
+                                      color: Colors.white,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                              child: Image.asset(
+                                            'assets/download.jpeg',
+                                          )),
+                                          Positioned(
+                                              top: 100,
+                                              left: 5,
+                                              child: Text("HAi")),
+                                        ],
+                                      )),
                                 ],
                               ),
                             ],
