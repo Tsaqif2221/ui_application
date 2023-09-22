@@ -315,83 +315,23 @@ class HomePage extends StatelessWidget {
                           SizedBox(
                             height: 30,
                           ),
-                          Row(
-                            children: [
-                              Container(
-                                padding: EdgeInsets.all(16),
-                                child: Container(
-                                  height: 200,
-                                  width: 150,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    color: Colors.deepPurpleAccent,
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                padding: EdgeInsets.all(16),
-                                child: Container(
-                                  height: 200,
-                                  width: 150,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    color: Colors.deepPurpleAccent,
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Container(
-                                padding: EdgeInsets.all(16),
-                                child: Container(
-                                  height: 200,
-                                  width: 150,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    color: Colors.deepPurpleAccent,
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                padding: EdgeInsets.all(16),
-                                child: Container(
-                                  height: 200,
-                                  width: 150,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    color: Colors.deepPurpleAccent,
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Container(
-                                padding: EdgeInsets.all(16),
-                                child: Container(
-                                  height: 200,
-                                  width: 150,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    color: Colors.deepPurpleAccent,
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                padding: EdgeInsets.all(16),
-                                child: Container(
-                                  height: 200,
-                                  width: 150,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    color: Colors.deepPurpleAccent,
-                                  ),
-                                ),
-                              ),
-                            ],
+                          Container(
+                            height: 260,
+                            padding: EdgeInsets.only(left: 10, right: 10),
+                            color: Colors.deepPurpleAccent,
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                    top: 20,
+                                    child: Container(
+                                      height: 200,
+                                      width: 150,
+                                      child: Center(
+                                        child: Text("HAi"),
+                                      ),
+                                    ))
+                              ],
+                            ),
                           )
                         ],
                       ),
