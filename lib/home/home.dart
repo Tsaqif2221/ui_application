@@ -313,25 +313,70 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            height: 30,
+                            height: 10,
                           ),
-                          Container(
-                            height: 260,
-                            padding: EdgeInsets.only(left: 10, right: 10),
-                            color: Colors.deepPurpleAccent,
-                            child: Stack(
-                              children: [
-                                Positioned(
-                                    top: 20,
-                                    child: Container(
+                          Column(
+                            children: [
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceAround,
+                                children: [
+                                  Container(
                                       height: 200,
                                       width: 150,
-                                      child: Center(
-                                        child: Text("HAi"),
-                                      ),
-                                    ))
-                              ],
-                            ),
+                                      color: Colors.white,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                              child: Image.asset(
+                                            'assets/download.jpeg',
+                                          )),
+                                          Positioned(
+                                              top: 100,
+                                              left: 5,
+                                              child: Text("HAi")),
+                                        ],
+                                      )),
+                                  SizedBox(
+                                    width: 35,
+                                  ),
+                                  Container(
+                                    height: 200,
+                                    width: 150,
+                                    color: Colors.white,
+                                    child: Center(
+                                      child: Text("HAi"),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              SizedBox(height: 20),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceAround,
+                                children: [
+                                  Container(
+                                    height: 200,
+                                    width: 150,
+                                    color: Colors.white,
+                                    child: Center(
+                                      child: Text("HAi"),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 35,
+                                  ),
+                                  Container(
+                                    height: 200,
+                                    width: 150,
+                                    color: Colors.white,
+                                    child: Center(
+                                      child: Text("HAi"),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
                           )
                         ],
                       ),
